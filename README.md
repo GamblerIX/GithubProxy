@@ -9,8 +9,7 @@
 │   ├── workers1.js            # 完整 GitHub 镜像代理（支持所有功能）
 │   └── workers2.js             # 文件下载加速代理（仅支持文件下载）
 └── Tampermonkey示例脚本/        # 浏览器用户脚本
-    ├── GitHub镜像站加速下载.js   # 下载加速脚本
-    └── GitHub镜像站汉化脚本.js   # 界面汉化脚本
+    ├── GitHub镜像站增强工具.js   # 下载加速+重定向+汉化的脚本
 ```
 
 ## 🚀 功能特性
@@ -30,23 +29,6 @@
 - ✅ 美观的首页界面
 - ✅ 简单部署，即开即用
 - ⚠️ 仅支持文件下载，不支持其他 GitHub 功能
-
-### Tampermonkey 用户脚本
-
-#### GitHub镜像站加速下载.js
-- ✅ 自动为下载链接添加加速源
-- ✅ 支持多个加速源切换
-- ✅ Clone 链接加速
-- ✅ Raw 文件加速
-- ✅ 智能主题适配（白天/夜间模式）
-- ✅ 菜单配置管理
-
-#### GitHub镜像站汉化脚本.js
-- ✅ GitHub 界面中文汉化
-- ✅ 支持多个 GitHub 相关站点
-- ✅ 智能翻译描述信息
-- ✅ 正则表达式翻译支持
-- ✅ 可配置的功能开关
 
 ## 🛠️ 部署指南
 
@@ -129,16 +111,6 @@
    - 请遵守 GitHub 服务条款
    - 不要用于商业用途
    - 避免过度请求
-
-## 作者自留的脚本安装链接
-
-```http
-https://raw.githubusercontent.com/GamblerIX/GithubProxy/main/Tampermonkey示例脚本/GitHub镜像站汉化脚本.js
-```
-
-```http
-https://raw.githubusercontent.com/GamblerIX/GithubProxy/main/Tampermonkey示例脚本/GitHub镜像站加速下载.js
-```
 
 ## 🔗 鸣谢
 
